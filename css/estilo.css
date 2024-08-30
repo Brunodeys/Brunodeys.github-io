@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Corrigido para "border-box" */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(245, 227, 227);
+    
+
+}
+
+body{
+    
+    height: 2530px;
+    background:linear-gradient(rgb(248, 79, 0),white)
+
+
+    }
+
+.Navegacao {
+    background-color: #0060b1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    transition: all 0.9s; /* Adicionado "s" para segundos */
+    position: solid;
+}
+
+.Cla {
+    position: relative;
+    background-color: white;
+    padding: 3px;
+    width: 33%;
+    border-radius: 5px;
+    height: 32px;
+}
+
+input {
+    width: 92%;
+    margin-left: 5px;
+    height: 25px;
+    border: none;
+}
+
+#Aroow {
+    position: absolute;
+    right: -59px;
+    bottom: -20px;
+    display: flex;
+    width: 20%;
+}
+
+.Person {
+    margin-left: 60px;
+    font-size: 50px;
+}
+
+.Login {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.Login a {
+    text-decoration: none;
+}
+
+.Login strong:hover {
+    color: blue;
+}
+
+.interacao {
+    margin-left: 160px;
+    font-size: 40px;
+}
+
+.interacao a {
+    padding-left: 40px;
+}
+
+.interacao a i:hover {
+    color: blue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.box .Nav-2 {
+    background-color: rgb(248, 79, 0);/* Cor do fundo azul escuro */
+    color: white; /* Mudei a cor do texto para branco */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    transition: all 0.9s;
+    position: absolute;
+    
+}
+
+.Nav-2 ul li{
+    padding-left: 60px;
+    font-display: none;
+
+
+}
+
+.Nav-2 ul{
+    list-style: none;
+}
+
+.Nav-2 ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.Nav-2 ul li a:hover{
+    color: #0060b1;
+}
+
+
+
+/*Slides*/
+
+
+/* Container do slideshow */
+.slideshow-container {
+    position: absolute;
+    width: 1400px;
+    margin-top: 60px;
+    margin-left: 240px;
+    height: 200px;
+    
+}
+  
+  /* Estilização dos slides */
+  .slide {
+    display: none;
+    position: relative;
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+
+  
+  /* Efeito de fade */
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.slideshow-container img{
+    
+    border: black 3px solid;
+}
+
+
+
+
+
+
+
+.topo{
+    position: absolute;
+    top: 498px;
+    left: 240px;
+    border: solid black 1px;
+    background-color:  rgb(248, 79, 0);
+    width: 1400px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 1300px;
+    
+
+
+}
+.topo h1{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: rgb(248, 79, 0);
+}
+
+.caixa-de-tudo{
+    display:flex;
+    
+}
+
+.item-1{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+
+}
+.item-1 p{
+    color: black;
+
+}
+
+.box-itens{
+
+    width: 100%;
+    box-shadow: 1px 1px 3px 1px black;
+    align-items: center;
+    border-radius: 3px;
+    height: 410px;
+
+
+}
+
+.box-itens img{
+    width: 80%;
+}
+
+
+
+.box-itens i{
+    color: white;
+    
+}
+
+.box-itens h3{
+    color: rgb(248, 79, 0);
+    text-align: left;
+    margin-left: 52px;
+    margin-top: 22px;
+}
+
+.box-itens .compra{
+    width: 200px;
+    border-radius: 2px;
+    background-color: rgb(248, 79, 0);
+    margin-left: 30px;
+    margin-bottom: 1px;
+
+
+}
+.compra a{
+    text-decoration: none;
+
+}
+
+.compra:hover{
+    background-color: blue;
+
+}
+
+.spam img{
+    width: 1380px;
+    border-radius: 20px;
+}
+
+.spam-2 img{
+    width: 450px;
+    border-radius: 20px;
+}
+
+.ofertas{
+    position: solid;
+    border: 1px solid black;
+    display: flex;
+    background-color: #0060b1;
+    width: 1865px;
+    margin-left: -242px;
+    height: 80px;
+
+}
+
+
+.text h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    padding: 8px;
+    margin-left: 300px  ;
+}
+
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.imp{
+    padding: 15px;
+
+}
+
+.imp input{
+
+    width: 420px;
+    height: 45px;
+    border-radius: 7px;
+
+}
+
+
+.imp-2{
+    padding: 15px;
+
+}
+
+.imp-2 input{
+
+    width: 420px;
+    height: 45px;
+    border-radius: 7px;
+
+}
+
+.final img{
+    width: 1865px;
+    position: solid;
+    margin-left: -242px;
+}
+
+.rodape img{
+    width: 1865px;
+    position: solid;
+    margin-left: -242px;
+    margin-top: -30px;
+
+}
